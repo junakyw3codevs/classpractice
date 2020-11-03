@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.junaky{
+    width:1200px;
+    margin: 0 auto;
+}
+
+/* header top CSS*/
+.header-top{
+    height: 70px;
+    background: whitesmoke;
+    border-bottom: 4px solid blueviolet;
+    text-align: center;
+}
+    
+.header-top p{
+    color: maroon;
+    padding: 10px 20px;
+    font-size: 45px;
+    font-style: italic;
+    display: inline-block;
+}
+.book img{
+    height: 70px;
+    width: 60px;
+    float: left;
+    margin-left: 800px;
+    margin-right: 0px;
+    display: inline-block;
+
+}
+
+/* header menu CSS*/
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    height: 100px;
+    width: 130px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.menu {
+    float: right ;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    border: 2px solid purple;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 14px;
+    display: inline-block;
+    background-color: rgb(37, 194, 89);
+}
+.menu li a:hover{
+    background: darkorange;
+}
+.search {
+    position: absolute;
+    height: 30px;
+    width: 220px;
+    border-radius: 50px;
+    background-color: rgb(196, 20, 166);
+    float: right;
+    right: 700px;
+    bottom: 976px;
+    margin: auto;
+    display: flex;
+    border: 3px crimson;
+    padding: 10px;
+}
+.txt {
+    font-size: 15px;
+    display: inline-block;
+}
